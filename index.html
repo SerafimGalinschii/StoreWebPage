@@ -10,12 +10,10 @@
     <header>
       <div class="nav_bar">
         <a href="">Logo</a>
-        <div>
-          <button class="button">
-            <img class="find-img" src="./views/find_img.png" alt="" />
-          </button>
-          <input type="text" placeholder="Search.." />
-        </div>
+        <form id="search" method="get" action="https://www.google.com/images">
+          <input class="search textbox" type="text" name="q">
+          <input class="search submit-button" type="button" type="submit" value="">
+       </form>
 
         <ul>
           <li>Home</li>

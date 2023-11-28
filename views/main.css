@@ -1,13 +1,47 @@
 ul{
     list-style-type: none;
+    display: flex;
+    
+}
+li{
+    margin: 30px;
+    padding: 10px;
 }
 .img-cart{
     width: 20px;
     padding: 5px;
 
 }
-.find-img{
-    width: 5%;
+.search {
+display: inline-block;
+box-sizing: border-box;
+line-height: 20px;    
+border-radius:20px;
+-moz-border-radius:50px;
+-webkit-border-radius:50px;
+line-height: 30px;
+height: 30px; 
+vertical-align:middle;
+padding: 12px 20px;
+}
+
+.textbox {
+ border-color: lightgrey;
+ width: 300px;
+}
+
+.submit-button {
+background-image: url("https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-256.png");
+line-height: inherit;
+text-decoration: none;
+cursor: pointer;
+width: 35px;
+background-position: 5px;
+background-repeat: no-repeat;
+background-size: 20px;
+background-color: transparent;
+margin-left:-45px;
+border:none;
 }
 .nav_bar{
     width: 100%;
